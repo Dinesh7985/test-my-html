@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>z-index</title>
+    </head>
+
+    <body>
+        
+        <div class="child"></div>
+        <div class="child1"></div>
+    </body>
+</html>
+
+<style>
+
+    .child{
+        width: 100px;
+        height: 200px;
+        background-color: yellow;
+        border: 2px solid red;
+
+    }
+
+    .child1{
+        width: 100px;
+        height: 200px;
+        background-color: green;
+        border: 2px solid blue;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: -2;
+        }
+</style>

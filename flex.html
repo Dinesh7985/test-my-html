@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<body>
+    <div class="home">
+        <div class="child">one</div>
+        <div class="child">two</div>
+        <div class="child">three</div>
+        <div class="child">four</div>
+        <div class="child">five</div>
+        <div class="child">six</div>
+        <div class="child">seven</div>
+    </div>
+    
+</body>
+</html>
+
+<style>
+    .home{
+        background-color: yellow;
+        display: flex;
+        justify-content: space-between;
+        height: 10vh
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+</style>
